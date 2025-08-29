@@ -4,16 +4,26 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-direction: column;
 }
 
-.q1 {
+.c1 {
     width: 150px;
     height: 150px;
-    background-color: blue;
+    background-color: rgb(255, 0, 0);
+    border-radius: 100PX;
 }
 
-.q2 {
+.c2 {
     width: 150px;
     height: 150px;
-    background-color: rgb(144, 14, 219);
+    background-color: rgb(255, 238, 0);
+    border-radius: 100PX;
+}
+
+.c3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 255, 34);
+    border-radius: 100PX;
 }
