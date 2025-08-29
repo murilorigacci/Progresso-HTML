@@ -1,6 +1,19 @@
 .retangulo {
-    width: 20%;
-    height: 200px;
-    background-color: rgb(20, 6, 63);
-    margin: 40px auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.q1 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.q2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(144, 14, 219);
 }
